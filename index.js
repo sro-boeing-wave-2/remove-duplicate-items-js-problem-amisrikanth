@@ -4,8 +4,8 @@
  * @returns {Array}
  */
 const removeDuplicateItems = (items) => {
-let distinctItems = new Set(items);
-return Array.from(distinctItems);
+  const distinctItems = new Set(items);
+  return Array.from(distinctItems);
 };
 
 module.exports = removeDuplicateItems;
